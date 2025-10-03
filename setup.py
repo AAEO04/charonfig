@@ -12,7 +12,7 @@ setup(
     description="A flexible configuration management library with support for typed fields, encryption, and multiple formats.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/AAEO04/charonfig",  # Replace with your repo URL
+    url="https://github.com/AAEO04/charonfig",  #RL
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     entry_points={
