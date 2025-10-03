@@ -15,7 +15,6 @@ requires-python = ">=3.8"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
@@ -24,7 +23,9 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
 ]
+license = {text = "MIT"}
 dependencies = [
     "cryptography>=3.4",
     "PyYAML>=5.4",
@@ -32,8 +33,12 @@ dependencies = [
 
 keywords = ["configuration", "config", "env", "yaml", "json", "encryption"]
 
+dynamic = []
+
+
 [project.urls]
-Homepage = "https://github.com/AAEO04/charonfig"  # Replace with your repo URL
+Homepage = "https://github.com/AAEO04/charonfig"  # 
 
 [project.scripts]
 charonfig = "charonfig.cli:main"
+
