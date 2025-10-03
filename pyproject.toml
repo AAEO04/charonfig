@@ -42,3 +42,8 @@ Homepage = "https://github.com/AAEO04/charonfig"  #
 [project.scripts]
 charonfig = "charonfig.cli:main"
 
+[tool.setuptools.package-data]
+"charonfig" = ["*"]  # Include all files in the package
+[tool.setuptools]
+include-package-data = false
+
